@@ -1,5 +1,6 @@
 # CS_UA_473_Capstone_Project
 CS UA 473 final project on classification over music data
+
 1. Data Cleaning and Prep
 First what was necessary was a simple investigation of the data for
 abnormalities and strangeness. The following 2 plots were more interesting
