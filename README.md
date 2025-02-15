@@ -1,7 +1,7 @@
 # CS_UA_473_Capstone_Project
 CS UA 473 final project on classification over music data
 
-1. Data Cleaning and Prep
+1. Data Cleaning and Prep:
 First what was necessary was a simple investigation of the data for
 abnormalities and strangeness. The following 2 plots were more interesting
 distributions of some of the features in the data. Besides this, there were some
@@ -15,7 +15,7 @@ encode for artist name, key, and mode. We also use the LabelEncoder to
 encode the 10 different categories.
 
 2. Data Clustering and Dimensionality
-Reduction
+Reduction:
 I reduced the over 6500 features due to the OneHotEncoding plus the
 standard numeric features to just 14 PCA features. Following this I plot the
 top 2 components from the PCA and find optimal clustering utilizing the
@@ -26,7 +26,7 @@ percent of this. The spacing/clustering seems relatively reasonable given the
 PCA results, it does seem like there is maybe a ”more energetic vibe” on some
 music vs the ”less energetic vibe” on other music
 
-3 Modeling, AUC, ROC
+3 Modeling, AUC, ROC:
 Modeling was done on the post PCA/clustering data process and I use a
 neural network to classify the 10 classes based on the row by row info. The
 neural network architecture is simply a single layer neural network with 64
