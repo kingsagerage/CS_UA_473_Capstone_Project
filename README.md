@@ -1,5 +1,5 @@
 # CS_UA_473_Capstone_Project
-CS UA 473 final project on classification over music data
+CS UA 473 final project on classification over music data, check the report for pretty graphs!
 
 1. Data Cleaning and Prep:
 First what was necessary was a simple investigation of the data for
